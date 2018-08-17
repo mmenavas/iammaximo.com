@@ -1,0 +1,9 @@
+{
+  "home": {
+    "summary": "Howdy! I'm a software developer from Phoenix, Arizona, and this is my portfolio website.",
+    "bio": "<p>I was born and raised in Lima, Peru. At the age of 16, I moved to the United States to pursue a college career. Since my English skills were weak, I spent my first year studying English. Learning English as a young adult was not easy, but it taught me to be patient and perseverant.</p> <p>During my college career, I used to build websites as a hobby. Then in 2009, I got my first part-time job as a web developer, at Arizona State University. Six months later, I was offered full-time employment. The day I got this promotion was one of my happiest days.</p>"
+  },
+  "skills": {
+    "skill-1": "HTML" 
+  }
+}
