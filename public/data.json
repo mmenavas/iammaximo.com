@@ -5,5 +5,15 @@
   },
   "skills": {
     "skill-1": "HTML" 
+  },
+  "jobs": {
+    "201703": {
+      "id": "201703",
+      "company": "Arizona State University",
+      "title": "Systems Analyst Senior",
+      "time": "March 2017 - Current",
+      "city": "Tempe, AZ",
+      "description": "I was responsible for bringing my team up to speed with best practices, such as code reviews, and adoption of new technologies, such as docker. I also implemented new features and provided ongoing support for a large Drupal 7 LMS site known as Research Academy."
+    }
   }
 }

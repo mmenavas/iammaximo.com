@@ -11,7 +11,7 @@ const Main = props => (
     <Switch>
       {/* <Route exact path='/' render={ () => <Home data={props.data} /> }/> */}
       <Route exact path='/' component={Home} /> }/>
-      <Route path='/resume' component={Resume}/>
+      <Route path='/resume' render={ () => <Resume data={props.jobs} /> }/>
       <Route path='/projects' component={Projects}/>
       <Route path='/contact' component={Contact}/>
     </Switch>

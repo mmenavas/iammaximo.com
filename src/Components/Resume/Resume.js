@@ -1,5 +1,6 @@
 import React from 'react';
-import { Row, Col, Collapsible, CollapsibleItem } from 'react-materialize';
+import { Row, Col, Collapsible } from 'react-materialize';
+import Job from '../Job/Job';
 import './Resume.css';
 
 const Resume = props => (
@@ -10,8 +11,16 @@ const Resume = props => (
         <div className="resume__work-experience">
           <h2>Work experience</h2>
           <Collapsible>
-            {/* {Object.keys(obj).forEach((key,index) =>
-             } */}
+            {props.jobs.map(item =>
+              <Job
+                key={item.id}
+                company={item.company}
+                title={item.title}
+                city={item.city}
+                time={item.time}
+                description={item.description}
+              />
+            )}
           </Collapsible>
         </div>
       </Col>

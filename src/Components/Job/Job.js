@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { CollapsibleItem } from 'react-materialize';
 import './Job.css';
 
 const Job = props => (
@@ -11,14 +12,6 @@ const Job = props => (
       <div className="job__description">{props.description}</div>
     </div>
   </CollapsibleItem>
-  // <CollapsibleItem header='Arizona State University' icon='business'>
-  //   <div className="job">
-  //     <div className="job__position">Systems Analyst Senior</div>
-  //     <div className="job__time"><i class="tiny material-icons">event</i> March 2017 - Current</div>
-  //     <div className="job__location"><i class="tiny material-icons">place</i> Tempe, AZ</div>
-  //     <div className="job__description">I was responsible for bringing my team up to speed with best practices, such as code reviews, and adoption of new technologies, such as docker. I also implemented new features and provided ongoing support for a large Drupal 7 LMS site known as Research Academy.</div>
-  //   </div>
-  // </CollapsibleItem>
 );
 
 Job.propTypes = {
