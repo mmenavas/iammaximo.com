@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, CardTitle } from 'react-materialize';
+import { Row, Col, Collapsible, CollapsibleItem } from 'react-materialize';
 import './Resume.css';
 
 const Resume = props => (
@@ -9,19 +9,25 @@ const Resume = props => (
         <h1>Resume</h1>
         <div className="resume__work-experience">
           <h2>Work experience</h2>
-          <Row>
+          <Collapsible>
+            <CollapsibleItem header='Arizona State University' icon='business'>
+              <div className="job">
+                <div className="job__position">Systems Analyst Senior</div>
+                <div className="job__time"><i class="tiny material-icons">event</i> March 2017 - Current</div>
+                <div className="job__location"><i class="tiny material-icons">place</i> Tempe, AZ</div>
+                <div className="job__description">I was responsible for bringing my team up to speed with best practices, such as code reviews, and adoption of new technologies, such as docker. I also implemented new features and provided ongoing support for a large Drupal 7 LMS site known as Research Academy.</div>
+              </div>
+            </CollapsibleItem>
+          </Collapsible>
+
+          {/* <Row>
             <Col s={12} m={6} l={4} >
               <Card header={
                   <CardTitle reveal image={"/img/companies/asu-ked-logo.jpg"} waves='light'/>
                 }
-                title="Systems Analyst Senior"
+                title="2017 - 2018"
                 reveal={
-                  <div className="job">
-                    <div className="job__company">Arizona State University</div>
-                    <div className="job__dates">March 2017 - Current</div>
-                    <div className="job__city">Tempe, AZ</div>
-                    <div className="job__description">I was responsible for bringing my team up to speed with best practices, such as code reviews, and adoption of new technologies, such as docker. I also implemented new features and provided ongoing support for a large Drupal 7 LMS site known as Research Academy.</div>
-                  </div>
+
                 }>
               </Card>
             </Col>
@@ -55,7 +61,7 @@ const Resume = props => (
                 }>
               </Card>
             </Col>
-          </Row>
+          </Row> */}
         </div>
       </Col>
     </Row>
