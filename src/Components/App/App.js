@@ -11,11 +11,11 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    // axios.get('/data.json')
-    //   .then(res => {
-    //     const data = res.data;
-    //     this.setState({ data });
-    //   })
+    axios.get('/data.json')
+      .then(res => {
+        const data = res.data;
+        this.setState({ data });
+      })
   }
 
   render() {

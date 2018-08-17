@@ -8,6 +8,7 @@ const Example = props => (
 );
 
 Example.propTypes = {
+  title: PropTypes.string.isRequired,
 }
 
 export default Example;
