@@ -4,6 +4,23 @@
     "bio": "<p>I was born and raised in Lima, Peru. At the age of 16, I moved to the United States to pursue a college career. Since my English skills were weak, I spent my first year studying English. Learning English as a young adult was not easy, but it taught me to be patient and perseverant.</p> <p>During my college career, I used to build websites as a hobby. Then in 2009, I got my first part-time job as a web developer, at Arizona State University. Six months later, I was offered full-time employment. The day I got this promotion was one of my happiest days.</p>"
   },
   "skills": [
+   {
+      "name": "Web Design",
+      "skills": [
+        "HTML", 
+        "CSS", 
+        "BEM",
+        "SASS",
+        "Bootstrap",
+        "Foundation",
+        "Carbon",
+        "Materialize",
+        "Atomic Design",
+        "Pattern Lab",
+        "Adobe Photoshop",
+        "Sketch"
+      ]
+    },
     {
       "name": "PHP",
       "skills": [
@@ -12,9 +29,21 @@
         "Symfony Components", 
         "PHPUnit", 
         "Behat", 
+        "WordPress",
         "CakePHP", 
         "CodeIgniter",
         "Composer"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "skills": [
+        "Git",
+        "Git Flow",
+        "Travis CI",
+        "Docker",
+        "Docker Compose",
+        "Shell scripting"
       ]
     },
     {
@@ -40,30 +69,6 @@
         "Flask",
         "PIP"
       ]
-    },
-    {
-      "name": "Web Design",
-      "skills": [
-        "HTML", 
-        "CSS", 
-        "BEM",
-        "SASS",
-        "Atomic Design",
-        "Pattern Lab",
-        "Adobe Photoshop",
-        "Sketch"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "skills": [
-        "Git",
-        "Git Flow",
-        "Travis CI",
-        "Docker",
-        "Docker Compose",
-        "Shell scripting"
-      ]
     }
   ],
   "jobs": [
@@ -72,7 +77,7 @@
       "title": "Systems Analyst Senior",
       "time": "March 2017 - Current",
       "city": "Tempe, AZ",
-      "description": "I was responsible for bringing my team up to speed with modern web development best practices such as using a package manager (e.g. Composer in the PHP world), adopting GitHub flow, and working locally with Docker. I also implemented new features and provided ongoing support for a large LMS website known as Research Academy."
+      "description": "I was responsible for bringing my team up to speed with modern web development best practices such as using a package manager (e.g. Composer), adopting GitHub flow, and working locally with Docker. I also implemented new features and provided ongoing support for a large LMS website known as Research Academy."
     },
     {
       "company": "meltmedia",

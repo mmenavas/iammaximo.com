@@ -23,16 +23,6 @@ class App extends React.Component {
       })
   }
 
-  // getItems(data, name) {
-  //   let items = []
-  //   if (data.hasOwnProperty(name)) {
-  //     Object.keys(data[name]).forEach(key => {
-  //       items.push(data[name][key]); 
-  //     });
-  //   }
-  //   return items;
-  // }
-
   render() {
     return (
       <div className="app">
