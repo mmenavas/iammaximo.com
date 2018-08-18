@@ -15,11 +15,14 @@ class App extends React.Component {
       .then(res => {
         const data = res.data;
         let jobs = []
-        if (data.hasOwnProperty) {
-          // Object.keys(data).forEach((key,index) =>
-          data.jobs.forEach((key,index) => jobs.push()); 
+        if (data.hasOwnProperty('jobs')) {
+          Object.keys(data.jobs).forEach(key => {
+            jobs.push(data.jobs[key]); 
+          });
         }
-        this.setState({ data });
+        this.setState({ 
+          jobs: jobs.reverse()
+        });
       })
   }
 
@@ -27,7 +30,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <Header />
-        <Main data={this.state.data} />
+        <Main jobs={this.state.jobs} />
       </div>
     )
   }

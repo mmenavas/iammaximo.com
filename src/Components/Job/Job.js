@@ -7,8 +7,8 @@ const Job = props => (
   <CollapsibleItem header={props.company} icon='business'>
     <div className="job">
       <div className="job__title">{props.title}</div>
-      <div className="job__time"><i class="tiny material-icons">event</i> {props.time}</div>
-      <div className="job__city"><i class="tiny material-icons">place</i> {props.city}</div>
+      <div className="job__time"><i className="tiny material-icons">event</i> {props.time}</div>
+      <div className="job__city"><i className="tiny material-icons">place</i> {props.city}</div>
       <div className="job__description">{props.description}</div>
     </div>
   </CollapsibleItem>
