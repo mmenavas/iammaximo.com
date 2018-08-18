@@ -3,118 +3,125 @@
     "summary": "Howdy! I'm a software developer from Phoenix, Arizona, and this is my portfolio website.",
     "bio": "<p>I was born and raised in Lima, Peru. At the age of 16, I moved to the United States to pursue a college career. Since my English skills were weak, I spent my first year studying English. Learning English as a young adult was not easy, but it taught me to be patient and perseverant.</p> <p>During my college career, I used to build websites as a hobby. Then in 2009, I got my first part-time job as a web developer, at Arizona State University. Six months later, I was offered full-time employment. The day I got this promotion was one of my happiest days.</p>"
   },
-  "skills": [
-    {
+  "skills": {
+    "php": {
       "name": "PHP",
-      "skills": [
-        "Drupal", 
-        "Twig", 
-        "Symfony Components", 
-        "PHPUnit", 
-        "Behat", 
-        "CakePHP", 
-        "CodeIgniter",
-        "Composer"
-      ]
+      "skills": {
+        "composer": "Composer",
+        "drupal": "Drupal", 
+        "twig": "Twig", 
+        "symfony": "Symfony Components", 
+        "phpunit": "PHPUnit", 
+        "behat": "Behat", 
+        "cake-php": "Cake PHP", 
+        "code-igniter": "Code Igniter"
+      }
     },
-    {
+    "javascript": {
       "name": "JavaScript",
-      "skills": [
-        "ES6", 
-        "Node.js", 
-        "React", 
-        "NPM"
-      ]
+      "skills": {
+        "es6": "ES6", 
+        "nodejs": "Node.js", 
+        "react": "React", 
+        "npm": "NPM"
+      }
     },
-    {
+    "java": {
       "name": "Java",
-      "skills": [
-        "Spring", 
-        "JUnit",
-        "Graddle"
-      ]
+      "skills": {
+        "graddle": "Graddle", 
+        "spring": "Spring", 
+        "junit": "JUnit"
+      }
     },
-    {
+    "python": {
       "name": "Python",
-      "skills": [
-        "Flask",
-        "PIP"
-      ]
+      "skills": {
+        "flask": "Flask",
+        "pip": "PIP"
+      }
     },
-    {
+    "web-design" {
       "name": "Web Design",
-      "skills": [
-        "HTML", 
-        "CSS", 
-        "BEM",
-        "SASS",
-        "Atomic Design",
-        "Pattern Lab",
-        "Adobe Photoshop",
-        "Sketch"
-      ]
+      "skills": {
+        "html": "HTML", 
+        "css": "CSS", 
+        "bem": "BEM",
+        "sass": "SASS",
+        "atomic-design": "Atomic Design",
+        "pattern-lab": "Pattern Lab",
+        "photoshop": "Adobe Photoshop",
+        "sketch": "Sketch"
+      }
     },
-    {
+    "devops": {
       "name": "DevOps",
-      "skills": [
-        "Git",
-        "Git Flow",
-        "Travis CI",
-        "Docker",
-        "Docker Compose",
-        "Shell scripting"
-      ]
+      "skills": {
+        "git": "Git",
+        "git-flow": "Git Flow",
+        "travis-ci": "Travis CI",
+        "docker": "Docker",
+        "docker-compose": "Docker Compose",
+        "shell-scripting": "Shell scripting"
+      }
     }
-  ],
-  "jobs": [
-    {
+  },
+  "jobs": {
+    "201703": {
+      "id": "201703",
       "company": "Arizona State University",
       "title": "Systems Analyst Senior",
       "time": "March 2017 - Current",
       "city": "Tempe, AZ",
       "description": "I was responsible for bringing my team up to speed with modern web development best practices such as using a package manager (e.g. Composer in the PHP world), adopting GitHub flow, and working locally with Docker. I also implemented new features and provided ongoing support for a large LMS website known as Research Academy."
     },
-    {
+    "201507": {
+      "id": "201507",
       "company": "meltmedia",
       "title": "Drupal Lead",
       "time": "July 2015 - September 2016",
       "city": "Tempe, AZ",
       "description": "I was responsible for mentoring my team about Drupal best practices and leading the development of all Drupal projects. I also got hands-on experience using Drupal 8, Salesforce API, Google Maps API, Git Flow, Jira, Confluence."
     },
-    {
+    "201503": {
+      "id": "201503",
       "company": "McMurry/TMG",
       "title": "PHP Developer",
       "time": "July 2015 - September 2016",
       "city": "Phoenix, AZ",
       "description": "I was responsible for creating new features and providing support for Drupal and WordPres websites. Two large projects I worked on as a backend developer were Marriot's Meetings Imagined and Charles Schwab's Insights &amp; Ideas."
     },
-    {
+    "201408": {
+      "id": "201408",
       "company": "Infusionsoft",
       "title": "Front-End Drupal Developer",
       "time": "August 2014 - November 2014",
       "city": "Chandler, AZ",
       "description": "I spent most of my time converting static breakouts into functional dynamic pages powered by Drupal 7. I also had the opportunity to use the GreenSock library to build an animated infographic."
     },
-    {
+    "201402": {
+      "id": "201402",
       "company": "Kalamuna",
       "title": "Drupal Developer",
       "time": "February 2014 - June 2014",
       "city": "Oakland, CA",
       "description": "Kaluma was a Drupal shop. I was primarily writing custom modules and providing Drupal support for the retainer clients. I also learned how to use libraries for handling PDF files such as WKHTMLtoPDF and PHP-PDFTK."
     },
-    {
+    "201212": {
+      "id": "201212",
       "company": "Goteq",
       "title": "PHP Developer",
       "time": "August 2014 - November 2014",
       "city": "Chandler, AZ",
       "description": "Goteq was a SEO company. At first, I  was primarily maintaining an in-house inventory software written in PHP and MySQL. Then I used my Drupal skills to build a dashboard app. I also got some exposure to Cake PHP, Facebook API, and Google Analytics API."
     },
-    {
+    "200904": {
+      "id": "200904",
       "company": "Arizona State University",
       "title": "Web Site Specialist",
       "time": "April 2009 - March 2012",
       "city": "Tempe, AZ",
       "description": "This was my first Drupal development job. I learned how to write Drupal modules and themes. I also provided Drupal support for multiple university websites."
     }
-  ]
+  }
 }

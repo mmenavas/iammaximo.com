@@ -7,30 +7,40 @@ import './App.css';
 class App extends React.Component {
   state = {
     // path: '/',
-    jobs: []
+    jobs: [],
+    skills: []
   }
 
   componentDidMount() {
     axios.get('/data.json')
       .then(res => {
         const data = res.data;
-        let jobs = []
-        if (data.hasOwnProperty('jobs')) {
-          Object.keys(data.jobs).forEach(key => {
-            jobs.push(data.jobs[key]); 
-          });
-        }
+
         this.setState({ 
-          jobs: jobs.reverse()
+          jobs: data.jobs,
+          skills: data.skills
         });
       })
   }
+
+  // getItems(data, name) {
+  //   let items = []
+  //   if (data.hasOwnProperty(name)) {
+  //     Object.keys(data[name]).forEach(key => {
+  //       items.push(data[name][key]); 
+  //     });
+  //   }
+  //   return items;
+  // }
 
   render() {
     return (
       <div className="app">
         <Header />
-        <Main jobs={this.state.jobs} />
+        <Main 
+          jobs={this.state.jobs}
+          skills={this.state.skills}
+         />
       </div>
     )
   }
