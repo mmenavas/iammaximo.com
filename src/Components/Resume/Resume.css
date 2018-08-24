@@ -5,3 +5,13 @@
   border-radius: 4px;
   margin: 0 0 6px 4px;
 }
+
+.job__accordion-icon {
+  display: none;
+}
+@media screen and (min-width: 360px) {
+  .job__accordion-icon {
+    display: block;
+    float: right;
+  }
+}

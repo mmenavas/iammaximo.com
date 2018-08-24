@@ -4,13 +4,15 @@ import { Navbar } from 'react-materialize';
 import './Header.css';
 
 const Header = props => (
-  <header className="header">
-    <Navbar className="header__nav" brand="Maximo Mena" right>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/resume">Resume</Link></li>
-      <li><Link to="/projects">Projects</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-    </Navbar>
+  <header className="header shadow">
+    <div className="container">
+      <Navbar className="header__nav" brand="Maximo Mena" right>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/resume">Resume</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </Navbar>
+    </div>
   </header>
 );
 

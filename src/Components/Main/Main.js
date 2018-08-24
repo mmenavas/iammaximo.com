@@ -8,13 +8,15 @@ import './Main.css';
 
 const Main = props => (
   <main>
-    <Switch>
-      {/* <Route exact path='/' render={ () => <Home data={props.data} /> }/> */}
-      <Route exact path='/' component={Home} /> }/>
-      <Route path='/resume' render={ () => <Resume jobs={props.jobs} skills={props.skills} /> }/>
-      <Route path='/projects' component={Projects}/>
-      <Route path='/contact' component={Contact}/>
-    </Switch>
+    <div className="container">
+      <Switch>
+        {/* <Route exact path='/' render={ () => <Home data={props.data} /> }/> */}
+        <Route exact path='/' component={Home} /> }/>
+        <Route path='/resume' render={ () => <Resume jobs={props.jobs} skills={props.skills} /> }/>
+        <Route path='/projects' render={ () => <Projects projects={props.projects} /> }/>
+        <Route path='/contact' component={Contact}/>
+      </Switch>
+    </div>
   </main>
 );
 

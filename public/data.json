@@ -4,13 +4,32 @@
     "bio": "<p>I was born and raised in Lima, Peru. At the age of 16, I moved to the United States to pursue a college career. Since my English skills were weak, I spent my first year studying English. Learning English as a young adult was not easy, but it taught me to be patient and perseverant.</p> <p>During my college career, I used to build websites as a hobby. Then in 2009, I got my first part-time job as a web developer, at Arizona State University. Six months later, I was offered full-time employment. The day I got this promotion was one of my happiest days.</p>"
   },
   "skills": [
-   {
+    {
+      "name": "PHP",
+      "skills": [
+        "Composer",
+        "Drupal",
+        "Drush", 
+        "Drupal Console", 
+        "Drupal Composer", 
+        "XDebug", 
+        "Twig", 
+        "Symfony Components", 
+        "PHPUnit", 
+        "Behat", 
+        "WordPress",
+        "CakePHP", 
+        "CodeIgniter"
+      ]
+    },
+    {
       "name": "Web Design",
       "skills": [
         "HTML", 
         "CSS", 
         "BEM",
         "SASS",
+        "UX",
         "Bootstrap",
         "Foundation",
         "Carbon",
@@ -22,20 +41,6 @@
       ]
     },
     {
-      "name": "PHP",
-      "skills": [
-        "Drupal", 
-        "Twig", 
-        "Symfony Components", 
-        "PHPUnit", 
-        "Behat", 
-        "WordPress",
-        "CakePHP", 
-        "CodeIgniter",
-        "Composer"
-      ]
-    },
-    {
       "name": "DevOps",
       "skills": [
         "Git",
@@ -43,6 +48,9 @@
         "Travis CI",
         "Docker",
         "Docker Compose",
+        "Lando",
+        "Pantheon",
+        "Acquia Cloud",
         "Shell scripting"
       ]
     },
@@ -52,7 +60,15 @@
         "ES6", 
         "Node.js", 
         "React", 
+        "React Router", 
         "NPM"
+      ]
+    },
+    {
+      "name": "Databases",
+      "skills": [
+        "MySQL",
+        "Firebase"
       ]
     },
     {
@@ -120,6 +136,43 @@
       "time": "April 2009 - March 2012",
       "city": "Tempe, AZ",
       "description": "This was my first Drupal development job. I learned how to write Drupal modules and themes. I also provided Drupal support for multiple university websites."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Marvel Demo",
+      "description": "",
+      "image": "/img/projects/marvel-demo.png",
+      "demo": "https://master-7rqtwti-joc4cbfcznznc.us-2.platformsh.site/marvel/search",
+      "source": "https://github.com/mmenavas/marvel"
+    },
+    {
+      "name": "RSVP Manager",
+      "description": "This app allows you to view, search, add, edit and remove people from a guest list.",
+      "image": "/img/projects/rsvp.png",
+      "demo": "https://www.iammaximo.com/rsvp-management/",
+      "source": "https://github.com/mmenavas/rsvp-management"
+    },
+    {
+      "name": "Tumi Restaurant",
+      "description": "",
+      "image": "/img/projects/tumi-restaurant.png",
+      "demo": "https://tumiaz.com",
+      "source": "https://github.com/mmenavas/tumi-restaurant"
+    },
+    {
+      "name": "Memory Game",
+      "description": "",
+      "image": "/img/projects/memory-game.png",
+      "demo": "http://www.iammaximo.com/memory-game/",
+      "source": "https://github.com/mmenavas/memory-game"
+    },
+    {
+      "name": "JPro",
+      "description": "",
+      "image": "/img/projects/jpro.png",
+      "demo": "http://janitorialprofessionals.com/",
+      "source": "https://github.com/JanitorialProfessionals/janitorialprofessionals.github.io"
     }
   ]
 }

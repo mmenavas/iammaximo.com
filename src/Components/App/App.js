@@ -8,7 +8,8 @@ class App extends React.Component {
   state = {
     // path: '/',
     jobs: [],
-    skills: []
+    skills: [],
+    projects: []
   }
 
   componentDidMount() {
@@ -18,7 +19,8 @@ class App extends React.Component {
 
         this.setState({ 
           jobs: data.jobs,
-          skills: data.skills
+          skills: data.skills,
+          projects: data.projects
         });
       })
   }
@@ -30,6 +32,7 @@ class App extends React.Component {
         <Main 
           jobs={this.state.jobs}
           skills={this.state.skills}
+          projects={this.state.projects}
          />
       </div>
     )

@@ -1,3 +1,7 @@
+.header {
+  background-color: #015b9f;
+}
 .header__nav {
-  background-color: #444;
+  background-color: transparent;
+  box-shadow: none;
 }
